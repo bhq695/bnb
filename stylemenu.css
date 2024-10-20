@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1px; 
+}
+
+header {
+    background-color:#f8c2ea;
+    margin-bottom: 0px;
+}
+
+h1{
+    text-align: center; 
+    padding: 0px;
+    margin-top: 20px;
+    font-size: 400%;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: -40px;
+}
+nav {
+    background-color: #ffe8fb; 
+    padding: 10px 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 0px; 
+    border-radius: 4px;
+    text-align: center;
+}
+
+.nav a {
+    font-size: 26px;
+    margin: 0 20px;
+}
+
+p {
+    font-size: 24px;
+}
+
+hr {
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    margin: 0
+}
+
+a {
+    color:#000000;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.active {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #f8c2ea;
+    font-size: 22px;
+}
+
+ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #f8c2ea;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+li span {
+    color: #000000;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.menu-section {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #f8c2ea;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background-color:#f8c2ea;
+}
+
+.menu-section h2 {
+    border-bottom: 2px solid #f9f9f9;
+    padding-bottom: 3px;
+}
+
+footer {
+    background-color: rgb(72, 67, 72);
+    color: white;
+    padding: 20px 0; /* Adjust padding as needed */
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer-section {
+    margin-bottom: 10px;
+    flex: 1 1 200px;
+    min-width: 150px;
+}
+
+.footerinformation img, .footermedia img {
+    width: 30px;
+    height: 30px;
+}
+
+.footerlogo {
+    width: 120px;
+    height: 120px;
+}
+
+.iglogo {
+    width: 40px;
+    height: 40px;
+}
+
+.username {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 42px;
+    }
+
+    .menu-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+    .menu-section {
+        margin: 5px 0;
+        width: 85%;
+        padding: 5px;
+    }
+    .menu-section h2 {
+        font-size: 20px;
+    }
+    ul {
+        font-size: 18px;
+    }
+    ul li {
+        padding: 10px 10px;
+    }
+    ul li span {
+        font-size: 15px;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+    .footerinformation, .aukiolofooter, .footerinstagram {
+        text-align: center;
+        margin: 10px auto;
+    }
+    .footermedia {
+        order: -1; /* Move to the top */
+        text-align: center;
+    }
+    .footerlogo {
+        margin: 0 auto;
+        display:block;
+    }
+}

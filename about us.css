@@ -1,0 +1,263 @@
+body {
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding:1px;
+}
+h1 {
+    background-color: #f8c2ea;
+    padding: 0px;
+    margin-top: 20px;
+    font-size: 400%;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color:#ffffff;
+}
+p {
+    font-size: 24px;
+}
+header{
+    background-color: #f8c2ea;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+hr {
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+}
+nav {
+    color: black;
+    background-color: #ffe8fb;
+    padding:10px 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin:0 0px;
+    margin-top: 0px;
+    padding-top: -5px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.nav{
+    font-size: 26px;
+    padding-bottom:0px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+nav a{
+    font-size: 26px;
+}
+a {
+    color: #000000;
+    border:none;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.active {
+    text-decoration: underline;
+}
+img {
+    display:block;
+    width: 200px;
+    align-content: center;
+    margin:0 auto;
+    margin-top: auto;
+    margin-bottom: 40px;
+}
+.kuvakahvilasta{
+    display:block;
+    width: 200px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.hesy:link {
+    color:darkblue;
+    font-size: 18px;
+}
+.hesy:visited {
+    color:rgb(226, 14, 25);
+    
+}
+.hesy:hover {
+    color:rgb(235, 12, 197);
+    background-color: black;
+    font-size: 20px;    
+}
+.hesy:active {
+    color:rgb(59, 8, 5);
+            
+}
+.prf:link {
+    color:darkblue;
+    font-size: 18px;            
+}
+.prf:visited {
+    color:rgb(226, 14, 25);
+                    
+}
+.prf:hover {
+    color:rgb(235, 12, 197);
+    background-color: black;
+    font-size: 20px;                    
+}
+.prf:active {
+    color:rgb(59, 8, 5);
+                            
+}
+.kurt:link {
+    color:darkblue;
+    font-size: 18px;                            
+}
+.kurt:visited {
+    color:rgb(226, 14, 25);
+                                    
+}
+.kurt:hover {
+    color:rgb(235, 12, 197);
+    background-color: black;
+    font-size:20px;                                    
+}
+.kurt:active {
+    color:rgb(59, 8, 5);
+                                            
+}
+.pit:link {
+    color:darkblue;
+    font-size:18px;                                            
+}
+.pit:visited {
+    color:rgb(226, 14, 25);
+                                                    
+}
+.pit:hover {
+    color:rgb(235, 12, 197);
+    background-color: black;
+    font-size:20px;                                                    
+}
+.pit:active {
+    color:rgb(59, 8, 5);
+                                                            
+}
+.world:link {
+    color:darkblue;
+    font-size:18px;                                                            
+}
+.world:visited {
+    color:rgb(226, 14, 25);
+                                                                    
+}
+.world:hover {
+    color:rgb(235, 12, 197);
+    background-color: black;
+    font-size:20px;                                                                    
+}
+.world:active {
+    color:rgb(59, 8, 5);
+                                                                            
+}
+div.gallery { 
+    border: 1px solid	 #ccc;
+    background-color: #f8c2ea;
+    display: table;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+div.nimi {
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.desc {
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+}
+footer {
+    background-color: rgb(72, 67, 72);
+    color: white;
+    padding: 20px 0; /* Adjust padding as needed */
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer-section {
+    margin-bottom: 10px;
+    flex: 1 1 200px;
+    min-width: 150px;
+}
+
+.footerinformation img, .footermedia img {
+    width: 30px;
+    height: 30px;
+}
+
+.footerlogo {
+    width: 120px;
+    height: 120px;
+}
+
+.iglogo {
+    width: 40px;
+    height: 40px;
+}
+
+.username {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+.responsive{
+    padding:0;
+    width:24.99999%;
+}
+@media only screen and (max-width:768px) {
+    .responsive {
+        width:100%;
+        margin:6px 0;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+    .footerinformation, .aukiolofooter, .footerinstagram {
+        text-align: center;
+        margin: 10px auto;
+    }
+    .footermedia {
+        order: -1; /* Move to the top */
+        text-align: center;
+    }
+    .footerlogo {
+        margin: 0 auto;
+    }
+}
