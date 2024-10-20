@@ -26,7 +26,7 @@ img {
     margin-bottom: -40px;
 }
 nav {
-    background-color: #ffe8fb; 
+    background-color: #f596e5; 
     padding: 10px 0;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 0 0px; 
@@ -58,7 +58,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
+    font-size: 30px; /* Underline on hover */
 }
 
 .active {
@@ -68,7 +69,7 @@ a:hover {
 ul {
     list-style-type: none;
     padding: 0;
-    border: 1px solid #f8c2ea;
+    border: 2px dotted #161315;
     font-size: 22px;
 }
 
